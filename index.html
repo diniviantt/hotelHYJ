@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome to the most extraordinary hotel in Boston, Massachusetts">
+    <meta name="keywords" content="hotel, Boston hotel, New England hotel">
+    <title>Hotel HYJ | Welcome</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb58dAXd+BXq4IuLW5IT+brZEZsLFm+aCMLF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="h.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <img class="y" src="hotel-removebg-preview.png" alt="Ikon Hotel" height="4">
+                <h1 class="logo"><a href="index.html">HYJ </a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1><span class="text-primary">Enjoy</span> Your stay</h1>
+                    <p class="lead">
+                        Hotel HYJ has very complete facilities, private pool and luxurious interiors equivalent to a five-star hotel that will create a relaxing atmosphere.
+                    </p>
+                    <a id="openbtn" class="btn">Sign-Up</a>
+                    <div id="modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close" id="closebtn">&times;</span>
+                            <h2 class="h2" >Sign Up</h2>
+                            <!-- Your HTML structure -->
+                    <form action="your-signin-action" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <input type="submit" value="Sign In">
+                </form>
+
+                        </div>
+                    </div>
+                
+                    <script src="skrip.js"></script>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home-info" class="bg-dark">
+        <div class="info-img"></div>
+        <div class="info-content">
+            <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
+            <p>
+                This is a more meaningful and concise description of your hotel's history.
+            </p>
+            <a href="about.html" class="btn btn-light">Read More</a>
+        </div>
+    </section>
+    <h2 class="o">Facilities</h2>
+    <section id="features">
+        <div class="box bg-primary">
+            <img src="parking.png" alt="Ikon Hotel">
+            <h3 class="i">Free Self Parking</h3>
+            <p class="i">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+        </div>
+        <div class="box bg-primary">
+            <img src="globe.png" alt="Ikon Hotel">
+            <h3>High Speed Internet Acces</h3>
+            <p >A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+        </div>
+        <div class="box bg-primary">
+            <img src="wifi.png" alt="Ikon Hotel">
+            <h3 class="i">Complimentary WiFi in public areas</h3>
+            <p class="i">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+        </div>
+        <div class="box bg-primary">
+            <img src="lift-sign.png" alt="Ikon Hotel">
+            <h3 class="i">Elevators</h3>
+            <p class="i">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+        </div>
+        <div class="box bg-primary">
+            <img src="coworking.png" alt="Ikon Hotel">
+            <h3 class="i">Meeting Rooms</h3>
+            <p class="i">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+        </div>
+        <div class="box bg-primary">
+            <img src="washing-machine.png" alt="Ikon Hotel">
+            <h3 class="i">Laundry and Valet service</h3>
+            <p class="i">A hotel is an establishment that provides paid lodging on a short-term basis. Facilities provided may range from a modest-quality.</p>
+        </div>
+            <!-- Your existing feature boxes -->
+    </section>
+    <section id="features">
+    <!-- New Booking Section -->
+    <div class="box bg-light">
+        <h3>Book Your Stay</h3>
+        <p>Experience luxury at Hotel HYJ. Book your stay now and enjoy our world-class amenities.</p>
+        <form action="booking_process.php" method="post">
+            <!-- Add your booking form fields here -->
+            <label for="check-in">Check-In Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+
+            <label for="check-out">Check-Out Date:</label>
+            <input type="date" id="check-out" name="check-out" required>
+
+            <button type="submit" class="btn btn-light">Book Now</button>
+        </form>
+    </section>
+    <div class="clr"></div>
+    <footer id="main-footer">
+        <p>Hotel HYJ @ 2023, All Right </p>
+    </footer>
+</body>
+</html>
